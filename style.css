@@ -1,0 +1,142 @@
+h2{
+    font-size: 40px;
+    padding: 9px 1px;
+    margin: 0px 2px;
+    /* border: 2px solid; */
+    position: relative;
+    top: -289px;
+    left: 606px;
+    color: brown;
+    text-shadow: 2px 2px 2px rgb(241, 199, 136);
+}
+
+
+body{
+    display: flex;
+    align-items: center;   
+    background-color: #e8903ea8; 
+    /* background-image: url("pexels-fwstudio-122458.jpg"); */
+}
+.block{
+    padding: 30px 30px;
+    margin: 110px 277px;
+    width: 317px;
+    height: auto;
+    display: block;
+    border: 2px solid red;
+    border-radius: 25px;
+    background-color: orange;
+    box-shadow: 4px 8px 3px rgb(127 42 42);
+}
+
+input{
+    padding: 9px 26px;
+    margin: 12px -4px;
+    width: auto;
+    border-radius: 15px;
+    height: auto;
+    font-size: 21px;
+    /* display: inline-blocback; */
+    background-color: rgba(245, 235, 215, 0.79);
+    text-shadow: 3px 3px 3px grey;
+
+
+}
+
+button{
+    padding: 4px 18px;
+    margin: 11px 13px;
+    font-size: 24px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+
+#result{
+    text-align: center;
+    background-color: black;
+    color: azure;
+    opacity: 80%;
+    border-radius: 15px;
+    text-shadow: 0px 0px 9px whitesmoke;
+    width: 150px;
+    position: relative;
+    left: 35px;
+}
+
+button:hover{
+    background-color: rgb(57, 8, 70);
+    color: azure;
+
+}
+
+#btn-1:hover,#btn-2:hover,#btn-3:hover,#btn-4:hover{
+    background-color: rgb(57, 8, 70);
+    color: azure;
+
+}
+textarea{
+    width: 300px;
+    height: 50px;
+border-radius: 20px;
+text-align: center;
+font-size: 20px;
+/* padding: 0px 0px;} */
+}
+#num-1,#num-2,#num-3,#num-4,#num-5,#num-6,#num-7,#num-8,#num-9{
+    position: relative;
+    left: 36px;
+    background-color: rgba(127, 255, 212, 0.226);
+}
+
+
+
+#num-10{
+    position:relative;
+    left: 36px;
+    background-color: rgba(127, 255, 212, 0.226);
+}
+
+#btn-4{
+    position: relative;
+    top: -62px;
+    left: -33px;
+}
+
+#num-11{
+    position: relative;
+    left: 41px;
+    background-color: rgba(127, 255, 212, 0.226);
+}
+
+.btn{
+    position: relative;
+    left: 39px;
+}
+
+#clear{
+    text-align: center;
+    background-color: rgb(237, 8, 8);
+    color: azure;
+    opacity: 80%;
+    border-radius: 15px;
+    /* text-shadow: 0px 0px 9px whitesmoke; */
+    width: 36px;
+    position: relative;
+    left: 26px;
+    top: 3px;
+    height: 35px;
+}
+
+#btn-1,#btn-2,#btn-3,#btn-4{
+    background-color: rgba(128, 128, 128, 0.642);
+}
+
+#result:hover{
+    background-color: azure;
+    color: black;
+}
+
+#clear:hover{
+    background-color: rgba(149, 3, 3, 0.884);
+}
